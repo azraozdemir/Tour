@@ -1,110 +1,89 @@
-= Projektantrag - Tour
+# Projektantrag – Digitale Tour (Stationenlauf)
 
-== 1. Ausgangslage
+## 1. Ausgangslage
 
-=== 1.1. Ist-Situation
+### 1.1 Ist-Situation
 
-Derzeit finden Stationenläufe in der Schule meist analog statt. Die Teilnehmenden erhalten Zettel oder mündliche Anweisungen und müssen selbst herausfinden, wo sich die nächste Station befindet. Eine digitale Unterstützung fehlt, wodurch Abläufe unübersichtlich und zeitaufwändig werden.
+Derzeit finden Stationenläufe in der Schule meist **analog** statt. Die Teilnehmenden erhalten Zettel oder mündliche Anweisungen und müssen selbst herausfinden, wo sich die nächste Station befindet. Eine digitale Unterstützung fehlt, wodurch Abläufe unübersichtlich und zeitaufwändig werden.
 
-=== 1.2. Verbesserungspotenziale
+### 1.2 Verbesserungspotenziale
 
-Die analoge Durchführung führt zu organisatorischem Aufwand, Verwirrung bei Teilnehmenden und fehlender Kontrolle über den Fortschritt. Eine digitale Lösung könnte den Ablauf vereinfachen, automatische Navigation ermöglichen und den administrativen Aufwand deutlich reduzieren. Es besteht klarer Bedarf nach einem strukturierten, modernen System.
+Die analoge Durchführung führt zu:
 
-== 2. Zielsetzung
+* hohem organisatorischem Aufwand
+* Verwirrung bei Teilnehmenden
+* fehlender Kontrolle über den Fortschritt
 
-Das neue System soll eine digitale Durchführung von Stationenläufen ermöglichen.
+Eine digitale Lösung könnte den Ablauf vereinfachen, automatische Navigation ermöglichen und den administrativen Aufwand deutlich reduzieren. Es besteht klarer Bedarf nach einem strukturierten, modernen System.
 
-*Kernfeatures:*
+---
+
+## 2. Zielsetzung
+
+Ziel des Projekts ist die **digitale Durchführung von Stationenläufen**.
+
+### Kernfeatures
 
 * Stationen digital anlegen und verwalten
 * QR-Codes pro Station generieren
 * Aufgaben pro Station anzeigen
-* Fortschritt tracken
+* Fortschritt der Teilnehmenden tracken
 * Automatische Anzeige der nächsten Station
 
-image::images/mini-mindmap.jpg[]
+*(Mini-Mindmap: Tour → Stationen → QR-Code → Aufgabe → Bestätigung → Nächste Station)*
 
+---
 
-== 3. Chancen und Risiken
+## 3. Chancen und Risiken
 
-=== Nutzen / Chancen
+### Nutzen / Chancen
+
 * Modernisierung des Unterrichts
 * Weniger organisatorischer Aufwand
 * Klare, digitale Navigation
 * Flexibel einsetzbar für Schulveranstaltungen, Übungen und Projekte
 
-=== Risiken
+### Risiken
+
 * Zeitdruck bei der Entwicklung
 * Technische Probleme (QR-Scan, Server, UI)
 * Fehlende Smartphones bei Teilnehmenden
 
-=== Gegenmaßnahmen
+### Gegenmaßnahmen
+
 * Frühzeitige Testläufe
 * Klare Aufgabenteilung im Team
-* Offline-Fallback-Lösungen (Backup-Codes)
+* Offline-Fallback-Lösungen (z. B. Backup-Codes)
 
-=== SWOT-Analyse
+---
 
-[options="header"]
-|===
-| Stärke | Schwäche | Chance | Risiko
+## 4. SWOT-Analyse
 
-| Intuitives System
-| Geräteabhängigkeit
-| Einsatz in vielen Schulprojekten
-| Scanfehler
+| Stärke                  | Schwäche               | Chance                           | Risiko          |
+| ----------------------- | ---------------------- | -------------------------------- | --------------- |
+| Intuitives System       | Geräteabhängigkeit     | Einsatz in vielen Schulprojekten | Scanfehler      |
+| Automatische Navigation | Technische Komplexität | Vereinfachte Organisation        | Serverprobleme  |
+| Erweiterbar             | Zeitaufwand            | Verbesserte Übersicht            | Fehlende Geräte |
 
-| Automatische Navigation
-| Technische Komplexität
-| Vereinfachte Organisation
-| Serverprobleme
+---
 
-| Erweiterbar
-| Zeitaufwand
-| Verbesserte Übersicht
-| Fehlende Geräte
-|===
+## 5. Planung
 
-== 4. Planung
+### Priorisierung der Features
 
-=== Priorisierung der Features
-. Stationen anlegen + Reihenfolge
-. QR-Codes generieren
-. Aufgaben pro Station
-. Navigation zur nächsten Station
-. Fortschrittsanzeige
-. UI-Verbesserungen / Mobile Optimierung
+1. Stationen anlegen und Reihenfolge definieren
+2. QR-Codes generieren
+3. Aufgaben pro Station anzeigen
+4. Navigation zur nächsten Station
+5. Fortschrittsanzeige
+6. UI-Verbesserungen / Mobile Optimierung
 
-=== Meilensteine
+---
 
-[options="header"]
-|===
-| Meilenstein | Aufgaben
+### Meilensteine
 
-| Meilenstein 1
-
-| 
-Stationen anlegen,
-
-Reihenfolge definieren,
-
-Aufgaben pro Station speichern
-
-| Meilenstein 2
-| 
-QR-Codes generieren,
-
-QR-Scan führt zur jeweiligen Station,
-
-Aufgabenanzeige + Bestätigung,
-
-Automatische Anzeige der nächsten Station
-
-| Meilenstein 3
-| 
-Fortschrittskontrolle,
-
-UI-Verbesserungen,
-
-Funktionstests & Optimierungen
-|===
+| Meilenstein       | Aufgaben                                                                                                                                  |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Meilenstein 1** | Stationen anlegen<br>Reihenfolge definieren<br>Aufgaben pro Station speichern                                                             |
+| **Meilenstein 2** | QR-Codes generieren<br>QR-Scan führt zur jeweiligen Station<br>Aufgabenanzeige + Bestätigung<br>Automatische Anzeige der nächsten Station |
+| **Meilenstein 3** | Fortschrittskontrolle<br>UI-Verbesserungen<br>Funktionstests & Optimierungen                                                              |
